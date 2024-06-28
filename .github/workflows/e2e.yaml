@@ -1,6 +1,9 @@
 name: Basic e2e test
 
 on:
+  push:
+    branches:
+      - '**'
   pull_request:
     branches:
       - 'main'
